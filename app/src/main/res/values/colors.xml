@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<!--Syntax: "color" + Layout name + Description
+		e.g. colorQuestionsPrimary belongs to the "Questions" layout -->
+	<color name = "colorStartPrimary">@color/colorBlack</color>
+	<color name = "colorStartPrimaryDark">@color/colorBlack</color>
+	<color name = "colorStartAccent">@color/colorWhite</color>
+	<color name = "colorStartBackground">@color/colorBlack</color>
+	<color name = "colorStartButtonStartQuiz">@color/colorWhite</color>
+	<color name = "colorStartTextPrimary">@color/colorWhite</color>
+	<color name = "colorStartTextSecondary">@color/colorBlack</color>
+
+	<color name = "colorQuestionsPrimary">@color/colorMaterialGrey700</color>
+	<color name = "colorQuestionsBackground">@color/colorWhite</color>
+	<color name = "colorQuestionsPrimaryDark">@color/colorMaterialGrey700</color>
+	<color name = "colorQuestionsTitleText">@color/colorWhite</color>
+	<color name = "colorQuestionsAccent">@color/colorMaterialGrey700</color>
+	<color name = "colorQuestionsTextPrimary">@color/colorBlack</color>
+	<color name = "colorQuestionsButton">@color/colorMaterialGrey700</color>
+	<color name = "colorQuestionsButtonText">@color/colorWhite</color>
+
+	<!--Colors-->
+	<color name = "colorBlack">#000000</color>
+	<color name = "colorWhite">#FFFFFF</color>
+	<color name = "colorMaterialGrey500">#9e9e9e</color>
+	<color name = "colorMaterialGrey700">#616161</color>
+</resources>

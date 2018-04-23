@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	xmlns:tools = "http://schemas.android.com/tools"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	android:theme="@style/AppThemeStart"
+	tools:context = "com.gfeo.genesisquiz.MainActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id = "@+id/toolbar_start"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:elevation = "4dp"
+		android:theme = "@style/ThemeOverlay.AppCompat.ActionBar"
+		app:popupTheme = "@style/ThemeOverlay.AppCompat.Light" />
+
+	<RelativeLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:layout_marginBottom = "72dp"
+		android:layout_marginLeft = "16dp"
+		android:layout_marginRight = "16dp"
+		android:layout_marginTop = "136dp">
+
+		<ImageView
+			android:id = "@+id/imageview_logo"
+			style="@style/StartImage"
+			android:layout_alignParentTop = "true"
+			android:layout_centerHorizontal = "true"
+			android:layout_marginEnd = "24dp"
+			android:layout_marginStart = "24dp"
+			android:importantForAccessibility = "no"
+			android:src = "@drawable/genesis_logo" />
+
+		<TextView
+			android:id = "@+id/textview_welcome"
+			style = "@style/StartText"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:layout_below = "@id/imageview_logo"
+			android:text = "@string/s_welcome" />
+
+		<Button
+			android:id = "@+id/button_start_quiz"
+			android:layout_width = "112dp"
+			android:layout_height = "wrap_content"
+			android:layout_alignParentBottom = "true"
+			android:layout_centerHorizontal = "true"
+			android:onClick = "changeLayout"
+			android:text = "@string/s_button_start_quiz"
+			android:backgroundTint="@color/colorStartAccent"
+			android:textColor = "@color/colorStartTextSecondary" />
+
+
+	</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+	xmlns:app = "http://schemas.android.com/apk/res-auto"
+	xmlns:tools = "http://schemas.android.com/tools"
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	android:theme = "@style/AppThemeQuestions"
+	tools:context = "com.gfeo.genesisquiz.MainActivity">
+
+	<android.support.v7.widget.Toolbar
+		android:id = "@+id/toolbar_questions"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:background = "@color/colorQuestionsPrimary"
+		android:elevation = "4dp"
+		android:theme = "@style/ThemeOverlay.AppCompat.ActionBar"
+		app:popupTheme = "@style/ThemeOverlay.AppCompat.Light"
+		app:title = "@string/app_name" />
+
+	<ScrollView
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:layout_marginTop = "?attr/actionBarSize"
+		android:background = "@color/colorQuestionsBackground"
+		android:orientation = "vertical">
+
+		<LinearLayout
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:background = "@color/colorQuestionsBackground"
+			android:orientation = "vertical"
+			android:padding = "16dp">
+
+			<!--Question 1-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:layout_marginTop = "0dp"
+				android:text = "@string/q_question_1" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_mayhew"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.1" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_silver"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.2" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_gabriel"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.3" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_collins"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.4" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_hackett"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.5" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_rutherford"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.6" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_phillips"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.7" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_banks"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.8" />
+
+			<CheckBox
+				android:id = "@+id/q1_checkbox_stewart"
+				style = "@style/QuestionsText.Answers.Q1"
+				android:text = "@string/q_answer_1.9" />
+
+			<!--Question 2-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_2" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					android:id = "@+id/q2_radio_spot"
+					style = "@style/QuestionsText.Answers.Q2"
+					android:text = "@string/q_answer_2.1" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q2"
+					android:text = "@string/q_answer_2.2" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q2"
+					android:text = "@string/q_answer_2.3" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q2"
+					android:text = "@string/q_answer_2.4" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q2"
+					android:text = "@string/q_answer_2.5" />
+			</RadioGroup>
+
+			<!--Question 3-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_3" />
+
+			<ImageView
+				style = "@style/QuestionsImage"
+				android:contentDescription="@string/q_question_3_imgdescription"
+				android:src = "@drawable/slipperman" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q3"
+					android:text = "@string/q_answer_3.1" />
+
+				<RadioButton android:id="@+id/q3_radio_lamb"
+					style = "@style/QuestionsText.Answers.Q3"
+					android:text = "@string/q_answer_3.2" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q3"
+					android:text = "@string/q_answer_3.3" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q3"
+					android:text = "@string/q_answer_3.4" />
+			</RadioGroup>
+
+
+			<!--Question 4-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_4" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q4"
+					android:text = "@string/q_answer_4.1" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q4"
+					android:text = "@string/q_answer_4.2" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q4"
+					android:text = "@string/q_answer_4.3" />
+
+				<RadioButton
+					android:id = "@+id/q4_radio_absent"
+					style = "@style/QuestionsText.Answers.Q4"
+					android:text = "@string/q_answer_4.4" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q4"
+					android:text = "@string/q_answer_4.5" />
+			</RadioGroup>
+
+			<!--Question 5-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_5" />
+
+			<EditText
+				android:id = "@+id/q5_edittext"
+				style = "@style/QuestionsText"
+				android:hint = "@string/q_question_5_hint" />
+
+			<!--Question 6-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_6" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q6"
+					android:text = "@string/q_answer_6.1" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q6"
+					android:text = "@string/q_answer_6.2" />
+
+				<RadioButton
+					android:id = "@+id/q6_radio_from"
+					style = "@style/QuestionsText.Answers.Q6"
+					android:text = "@string/q_answer_6.3" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q6"
+					android:text = "@string/q_answer_6.4" />
+			</RadioGroup>
+
+			<!--Question 7-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_7" />
+
+			<ImageView
+				style = "@style/QuestionsImage"
+				android:contentDescription="@string/q_question_7_imgdescription"
+				android:src = "@drawable/land_of_confusion" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q7"
+					android:text = "@string/q_answer_7.1" />
+
+				<RadioButton
+					android:id = "@+id/q7_radio_land"
+					style = "@style/QuestionsText.Answers.Q7"
+					android:text = "@string/q_answer_7.2" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q7"
+					android:text = "@string/q_answer_7.3" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q7"
+					android:text = "@string/q_answer_7.4" />
+
+			</RadioGroup>
+
+			<!--Question 8-->
+			<TextView
+				style = "@style/QuestionsText.Questions"
+				android:text = "@string/q_question_8" />
+
+			<RadioGroup style = "@style/QuestionsText.Answers">
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q8"
+					android:text = "@string/q_answer_8.1" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q8"
+					android:text = "@string/q_answer_8.2" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q8"
+					android:text = "@string/q_answer_8.3" />
+
+				<RadioButton
+					style = "@style/QuestionsText.Answers.Q8"
+					android:text = "@string/q_answer_8.4" />
+
+				<RadioButton
+					android:id = "@+id/q8_radio_hackett"
+					style = "@style/QuestionsText.Answers.Q8"
+					android:text = "@string/q_answer_8.5" />
+
+			</RadioGroup>
+
+			<Button
+				android:id = "@+id/button_result"
+				style="@style/QuestionsButton"
+				android:layout_marginTop = "24dp"
+				android:onClick = "showResult"
+				android:text = "@string/q_button_result" />
+
+			<Button
+				android:id = "@+id/button_reset"
+				style="@style/QuestionsButton"
+				android:layout_margin = "16dp"
+				android:onClick = "changeLayout"
+				android:text = "@string/q_button_reset"/>
+
+		</LinearLayout>
+	</ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

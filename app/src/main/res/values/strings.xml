@@ -1,0 +1,111 @@
+<resources>
+	<string name = "app_name">Genesis Quiz</string>
+
+
+
+	<!--Each string is prefixed with the initial of the layout in which they will appear (if they will appear)
+		e.g. string "q_answer_2.4" belongs to the "Questions" layout-->
+
+	<!--Start layout: activity_main_start.xml-->
+	<string name = "s_welcome">Welcome to the Genesis Quiz!</string>
+	<string name = "s_button_start_quiz">Start</string>
+
+	<!--Questions layout: activity_main_questions.xml-->
+	<string name = "q_button_result">Show result</string>
+	<string name = "q_button_reset">Restart</string>
+
+	<string name = "q_question_1">1. Which of these were founding members of Genesis?</string>
+	<string name = "q_answer_1.1">@string/artist_mayhew</string>
+	<string name = "q_answer_1.2">@string/artist_silver</string>
+	<string name = "q_answer_1.3">@string/artist_gabriel</string>
+	<string name = "q_answer_1.4">@string/artist_collins</string>
+	<string name = "q_answer_1.5">@string/artist_hackett</string>
+	<string name = "q_answer_1.6">@string/artist_rutherford</string>
+	<string name = "q_answer_1.7">@string/artist_phillips</string>
+	<string name = "q_answer_1.8">@string/artist_banks</string>
+	<string name = "q_answer_1.9">@string/artist_stewart</string>
+
+	<string name = "q_question_2">2. What was the last release to feature Steve Hackett?</string>
+	<string name = "q_answer_2.1">@string/album_spot</string>
+	<string name = "q_answer_2.2">@string/album_trick</string>
+	<string name = "q_answer_2.3">@string/album_lamb</string>
+	<string name = "q_answer_2.4">@string/album_wind</string>
+	<string name = "q_answer_2.5">@string/album_selling</string>
+
+	<string name = "q_question_3">3. Which album is the <i>Slipperman</i> costume from?</string>
+	<string name = "q_question_3_imgdescription">A photo of Peter Gabriel wearing the Slipperman costume onstage</string>
+	<string name = "q_answer_3.1">@string/album_foxtrot</string>
+	<string name = "q_answer_3.2">@string/album_lamb</string>
+	<string name = "q_answer_3.3">@string/album_nursery</string>
+	<string name = "q_answer_3.4">@string/album_selling</string>
+
+	<string name = "q_question_4">4. Which was the first Genesis song with Collins alone on the lead vocals?</string>
+	<string name = "q_answer_4.1">@string/song_harold</string>
+	<string name = "q_answer_4.2">@string/song_watcher</string>
+	<string name = "q_answer_4.3">@string/song_behind</string>
+	<string name = "q_answer_4.4">@string/song_absent</string>
+	<string name = "q_answer_4.5">@string/song_dance</string>
+
+	<string name = "q_question_5">5. What\'s the name of the school where Genesis was formed?</string>
+	<string name = "q_question_5_hint">Answer</string>
+	<string name = "q_answer_5">charterhouse</string>
+
+	<string name = "q_question_6">6. What\'s the name of Genesis\' debut album?</string>
+	<string name = "q_answer_6.1">@string/album_trespass</string>
+	<string name = "q_answer_6.2">@string/album_foxtrot</string>
+	<string name = "q_answer_6.3">@string/album_from</string>
+	<string name = "q_answer_6.4">@string/album_nursery</string>
+
+	<string name = "q_question_7">7. Which single cover was this cropped from?</string>
+	<string name = "q_question_7_imgdescription">The cropped single cover</string>
+	<string name = "q_answer_7.1">@string/song_carpet</string>
+	<string name = "q_answer_7.2">@string/song_land</string>
+	<string name = "q_answer_7.3">@string/song_illegal</string>
+	<string name = "q_answer_7.4">@string/song_tonight</string>
+
+	<string name = "q_question_8">8. Who wrote the instrumental <i>After The Ordeal</i>, from the <i>Selling England By The Pound</i> album?</string>
+	<string name = "q_answer_8.1">@string/artist_gabriel</string>
+	<string name = "q_answer_8.2">@string/artist_banks</string>
+	<string name = "q_answer_8.3">@string/artist_collins</string>
+	<string name = "q_answer_8.4">@string/artist_rutherford</string>
+	<string name = "q_answer_8.5">@string/artist_hackett</string>
+
+	<string name = "messagePassed">Passed</string>
+	<string name = "messageFailed">Failed</string>
+
+
+
+	<!--The following strings are used within this file only-->
+
+	<!--Artists-->
+	<string name = "artist_gabriel">Peter Gabriel</string>
+	<string name = "artist_banks">Tony Banks</string>
+	<string name = "artist_phillips">Anthony Phillips</string>
+	<string name = "artist_rutherford">Mike Rutherford</string>
+	<string name = "artist_stewart">Chris Stewart</string>
+	<string name = "artist_hackett">Steve Hackett</string>
+	<string name = "artist_collins">Phil Collins</string>
+	<string name = "artist_silver">John Silver</string>
+	<string name = "artist_mayhew">John Mayhew</string>
+	<!--Albums-->
+	<string name = "album_from"><i>From Genesis to Revelation</i></string>
+	<string name = "album_trespass"><i>Trespass</i></string>
+	<string name = "album_nursery"><i>Nursery Cryme</i></string>
+	<string name = "album_foxtrot"><i>Foxtrot</i></string>
+	<string name = "album_selling"><i>Selling England By The Pound</i></string>
+	<string name = "album_lamb"><i>The Lamb Lies Down On Broadway</i></string>
+	<string name = "album_trick"><i>A Trick Of The Tail</i></string>
+	<string name = "album_wind"><i>Wind &amp; Wuthering</i></string>
+	<string name = "album_spot"><i>Spot The Pigeon</i></string>
+	<!--Songs-->
+	<string name = "song_harold"><i>Harold The Barrel</i></string>
+	<string name = "song_behind"><i>Behind The Lines</i></string>
+	<string name = "song_watcher"><i>Watcher Of The Skies</i></string>
+	<string name = "song_dance"><i>Dance On A Volcano</i></string>
+	<string name = "song_absent"><i>For Absent Friends</i></string>
+	<string name = "song_land"><i>Land Of Confusion</i></string>
+	<string name = "song_illegal"><i>Illegal Alien</i></string>
+	<string name = "song_tonight"><i>Tonight, Tonight, Tonight</i></string>
+	<string name = "song_carpet"><i>The Carpet Crawlers</i></string>
+
+</resources>
