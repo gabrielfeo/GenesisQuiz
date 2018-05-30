@@ -1,8 +1,8 @@
 # GenesisQuiz
-Project #3 for the Udacity Android Basics nanodegree.  
-A simple quiz game about the progressive rock band _Genesis_.
+A simple quiz game for Android about the progressive rock band _Genesis_.  
+Project #3 for the Udacity Android Basics nanodegree.
 
-This is a starter, rudimentary project: it uses a single Activity with two layouts to represent different screens.
+**Disclaimer:** This is a starter, rudimentary project: it uses a single Activity with two layouts to represent different screens.
 
 ### Screenshots
 ![Start screen]
