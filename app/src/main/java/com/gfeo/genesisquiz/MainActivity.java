@@ -12,10 +12,10 @@ import java.util.Arrays;
 
 public class MainActivity extends AppCompatActivity {
 
-	/** Questions result booleans. */
+	/* Questions result booleans. */
 	private boolean[] answerIsCorrect = new boolean[7];
 
-	/** Question 1-specific booleans (checkbox question). */
+	/* Question 1-specific booleans (checkbox question). */
 	private boolean q1_gabrielIsChecked;
 	private boolean q1_banksIsChecked;
 	private boolean q1_phillipsIsChecked;
@@ -46,14 +46,6 @@ public class MainActivity extends AppCompatActivity {
 				break;
 			case R.id.button_reset:
 				setContentView(R.layout.activity_main_start);
-				/*q1AnswerIsCorrect = false;
-				q2AnswerIsCorrect = false;
-				q3AnswerIsCorrect = false;
-				q4AnswerIsCorrect = false;
-				q5AnswerIsCorrect = false;
-				q6AnswerIsCorrect = false;
-				q7AnswerIsCorrect = false;
-				q8AnswerIsCorrect = false;*/
 				break;
 		}
 	}
